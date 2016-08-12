@@ -6,3 +6,4 @@ var addr = 'http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=
 var parseUrl = url.parse(addr);
 console.log( querystring.parse(parseUrl.query) );
 
+
